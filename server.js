@@ -16,7 +16,7 @@ app.use('/api/books', bookRoutes);
 
 
 
-mongoose.connect('mongodb://127.0.0.1/book_tracker_db')
+mongoose.connect('mongodb+srv://sidmillx:Mongodb2002.@mernapp.uafff8b.mongodb.net/?retryWrites=true&w=majority&appName=MERNapp')
     .then(() => {
         console.log("Connected to MongoDB successfully!");
     })
