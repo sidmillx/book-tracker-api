@@ -1,0 +1,60 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Dependency directories
+node_modules/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Debugger files
+*.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Optional build output
+build/
+out/
+
+# Optional local development files
+tmp/
+temp/
